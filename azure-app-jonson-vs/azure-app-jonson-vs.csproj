@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_jonson_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/8eddec47-f4b8-4bc1-8fc0-f39638020298/resourceGroups/az-group-rg/providers/microsoft.insights/components/azure-app-jonson-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>cf7d0b69-e573-411e-9da5-6476bf646786</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>

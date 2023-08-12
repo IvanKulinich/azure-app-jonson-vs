@@ -14,6 +14,7 @@ namespace azure_app_jonson_vs.Pages
 
         public void OnGet()
         {
+            throw new Exception("Test Insights.");
         }
     }
 }
